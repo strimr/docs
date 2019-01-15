@@ -1,7 +1,0 @@
-Postrges and track_metadata:
-docker run -d -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD= -e POSTGRES_DB=track_metadata -p 5432:5432 postgres:10.5
-
-
-mongodb and track_data:
-docker run -d -e MONGODB_USERNAME=mongodb -e MONGODB_PASSWORD= -e MONGODB_DATABASE=track_data -p 27017:27017 mongo:4.0.3
-
